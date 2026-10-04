@@ -1,0 +1,84 @@
+<!DOCTYPE html>
+<html lang="id">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <title>Quiz Untuk Reyhan 💗</title>
+
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+
+    <div class="hearts"></div>
+
+    <!-- HALAMAN PEMBUKA -->
+    <section id="home" class="page active">
+
+        <div class="card">
+
+            <div class="heart">♥</div>
+
+            <h1>Quiz Untuk Reyhan</h1>
+
+            <p>
+                Seberapa kenal Reyhan sama aku?
+            </p>
+
+            <p class="small">
+                Jawab semua pertanyaan dengan jujur ya.
+                Jangan nyontek, dasar manusia.
+            </p>
+
+            <button onclick="startQuiz()">
+                Mulai Quiz 💗
+            </button>
+
+        </div>
+
+    </section>
+
+
+    <!-- HALAMAN QUIZ -->
+    <section id="quiz" class="page">
+
+        <div class="card">
+
+            <p id="number"></p>
+
+            <h2 id="question"></h2>
+
+            <div id="answers"></div>
+
+        </div>
+
+    </section>
+
+
+    <!-- HASIL -->
+    <section id="result" class="page">
+
+        <div class="card">
+
+            <div class="heart">♥</div>
+
+            <h1>Quiz Selesai!</h1>
+
+            <h2 id="score"></h2>
+
+            <p id="resultText"></p>
+
+            <button onclick="restartQuiz()">
+                Ulangi Quiz
+            </button>
+
+        </div>
+
+    </section>
+
+
+    <script src="script.js"></script>
+
+</body>
+</html>
